@@ -1,0 +1,53 @@
+
+/* how to place box center and place text center this was all for today css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height:100vh;
+
+    display: grid;
+    place-items: center;
+}
+
+.container-img{
+    width: 60vw;
+    height: 40rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    background-image: url('https://fps.cdnpk.net/images/home/subhome-ai.webp?w=649&h=649');
+    background-size: cover;
+    animation: gallery 20s linear infinite;
+}
+@keyframes gallery{
+    0%{
+        background-image: url('https://fps.cdnpk.net/images/home/subhome-ai.webp?w=649&h=649');
+    
+    }
+    20%{
+        background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/amazing-stone-path-in-forest-free-image.jpg?w=600&quality=80');
+    
+    }
+    40%{
+        background-image: url('https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg');
+    
+    }
+    60%{
+        background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-autumn-nature-with-trees-of-yellow-leaves-free-image.jpeg?w=600&quality=80');
+    
+    }
+    80%{
+        background-image: url('https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg');
+    
+    }
+    100%{
+        background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg');
+    
+    }
+}
+
